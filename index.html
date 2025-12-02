@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Mahasiswa Informatika UMM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigasi -->
+    <header class="header">
+        <a href="#" class="logo">Portofolio</a>
+        
+        <i class='bx bx-menu' id="menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Beranda</a>
+            <a href="#services">Layanan</a>
+            <a href="#portfolio">Portofolio</a>
+            <a href="#certificates">Sertifikat</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <!-- Section Beranda -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Halo, Saya</h3>
+            <h1>Taufiqurrahman Al Rasyid </h1>
+            <h3>Saya adalah <span class="multiple-text"></span></h3>
+            <p>Mahasiswa Program Studi Informatika Universitas Muhammadiyah Malang yang memiliki</p>
+            <p>passion dalam pengembangan perangkat lunak, desain antarmuka pengguna, dan teknologi</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://x.com/?lang=en-id"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/to.pkk?igsh=MWZ3MTgzMGZpdHZ6Ng%3D%3D&utm_source=qr"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/taufiqurrahman-al-rasyid-2312des/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Taufik2312"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#contact" class="btn">Hubungi Saya</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/profile.jpg" alt="Foto Profil">
+        </div>
+    </section>
+
+    <!-- Section Layanan -->
+    <section class="services" id="services">
+        <h2 class="heading">Layanan <span>Saya</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Membangun website responsif dan modern menggunakan teknologi terbaru seperti HTML5, CSS3, JavaScript, dan framework populer.</p>
+                <a href="#" class="btn">Selengkapnya</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-android'></i>
+                <h3>Mobile Development</h3>
+                <p>Mengembangkan aplikasi mobile untuk platform Android dan iOS menggunakan React Native, Flutter, atau teknologi native.</p>
+                <a href="#" class="btn">Selengkapnya</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-palette'></i>
+                <h3>UI/UX Design</h3>
+                <p>Mendesain antarmuka pengguna yang menarik, intuitif, dan user-friendly dengan mempertimbangkan pengalaman pengguna.</p>
+                <a href="#" class="btn">Selengkapnya</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-data'></i>
+                <h3>Database Management</h3>
+                <p>Mendesain, mengimplementasi, dan mengelola sistem database untuk aplikasi dengan performa optimal.</p>
+                <a href="#" class="btn">Selengkapnya</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-server'></i>
+                <h3>Backend Development</h3>
+                <p>Membangun sistem server-side yang kuat dan scalable menggunakan Node.js, PHP, Python, atau Java.</p>
+                <a href="#" class="btn">Selengkapnya</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-cloud'></i>
+                <h3>Cloud Computing</h3>
+                <p>Mengimplementasi solusi cloud untuk deployment, scaling, dan manajemen aplikasi dengan teknologi cloud modern.</p>
+                <a href="#" class="btn">Selengkapnya</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Portofolio -->
+<!-- Ganti bagian Portfolio dengan ini -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Proyek <span>Terbaru</span></h2>
+
+    <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+    </div>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box" data-category="web">
+            <div class="portfolio-image">
+                <img src="images/web1.png" alt="Sistem Informasi Perpustakaan">
+            </div>
+            <div class="portfolio-layer">
+                <div class="portfolio-content">
+                    <h4>Sistem Informasi Perpustakaan</h4>
+                    <p>Aplikasi web untuk manajemen perpustakaan dengan fitur peminjaman, pengembalian, dan katalog digital.</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">HTML/CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">PHP</span>
+                    </div>
+                    <a href="https://taufik2312.github.io/bokk.io/" class="portfolio-link"><i class='bx bx-link-external'></i> Lihat Proyek</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-box" data-category="mobile">
+            <div class="portfolio-image">
+                <img src="images/ecomm.png" alt="Aplikasi E-Commerce">
+            </div>
+            <div class="portfolio-layer">
+                <div class="portfolio-content">
+                    <h4>Aplikasi E-Commerce</h4>
+                    <p>Platform e-commerce lengkap dengan sistem pembayaran, keranjang belanja, dan manajemen produk.</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">React Native</span>
+                        <span class="tag">Firebase</span>
+                    </div>
+                    <a href="https://www.tokopedia.com/" class="portfolio-link"><i class='bx bx-link-external'></i> Lihat Proyek</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-box" data-category="design">
+            <div class="portfolio-image">
+                <img src="images/UIUX.png" alt="Mobile Learning App">
+            </div>
+            <div class="portfolio-layer">
+                <div class="portfolio-content">
+                    <h4>UI/UX Design App</h4>
+                    <p>Desain antarmuka untuk aplikasi pembelajaran mobile dengan konten interaktif.</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">UI Design</span>
+                    </div>
+                    <a href="https://www.affinity.studio/" class="portfolio-link"><i class='bx bx-link-external'></i> Lihat Proyek</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Section Sertifikat -->
+    <section class="certificates" id="certificates">
+        <h2 class="heading">Sertifikat <span>Saya</span></h2>
+
+        <div class="certificates-container">
+            <div class="certificate-box">
+                <img src="images/sert1.png" alt="Sertifikat 1">
+                <div class="certificate-content">
+                    <h3>Google Cloud Certified</h3>
+                    <p>Sertifikasi Associate Cloud Engineer dari Google Cloud Platform</p>
+                    <span>2023</span>
+                </div>
+            </div>
+
+            <div class="certificate-box">
+                <img src="images/sert2.png" alt="Sertifikat 2">
+                <div class="certificate-content">
+                    <h3>AWS Certified Developer</h3>
+                    <p>Sertifikasi AWS Certified Developer - Associate dari Amazon Web Services</p>
+                    <span>2023</span>
+                </div>
+            </div>
+
+            <div class="certificate-box">
+                <img src="images/sert3.png" alt="Sertifikat 3">
+                <div class="certificate-content">
+                    <h3>React Developer Certification</h3>
+                    <p>Sertifikasi React Developer dari Meta melalui Coursera</p>
+                    <span>2022</span>
+                </div>
+            </div>
+
+            <div class="certificate-box">
+                <img src="images/sert2.png" alt="Sertifikat 4">
+                <div class="certificate-content">
+                    <h3>UI/UX Design Specialization</h3>
+                    <p>Sertifikasi UI/UX Design dari California Institute of the Arts</p>
+                    <span>2022</span>
+                </div>
+            </div>
+
+            <div class="certificate-box">
+                <img src="images/sert2.png" alt="Sertifikat 5">
+                <div class="certificate-content">
+                    <h3>Python for Everybody</h3>
+                    <p>Sertifikasi Python Programming dari University of Michigan</p>
+                    <span>2021</span>
+                </div>
+            </div>
+
+            <div class="certificate-box">
+                <img src="images/sert2.png" alt="Sertifikat 6">
+                <div class="certificate-content">
+                    <h3>Oracle Java Certification</h3>
+                    <p>Sertifikasi Oracle Certified Associate, Java SE 8 Programmer</p>
+                    <span>2021</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Kontak -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Hubungi <span>Saya</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nama Lengkap">
+                <input type="email" placeholder="Alamat Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Nomor Telepon">
+                <input type="text" placeholder="Subjek Email">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Pesan Anda"></textarea>
+            <input type="submit" value="Kirim Pesan" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Nama Mahasiswa | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
